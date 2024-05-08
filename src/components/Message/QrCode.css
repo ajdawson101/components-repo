@@ -35,6 +35,8 @@ body {
   border-radius: 10px;
   width: 100%;
   height: 288px;
+  align-items: center;
+  justify-content: center;
   overflow: hidden; /* Add this to clip the .oval to the .qr-container */
 }
 
@@ -58,6 +60,15 @@ body {
   top: 200px;
   border-radius: 100%;
   background-color: #ffffff;
+}
+
+.qr-code {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  filter: invert(100%);
 }
 
 h1 {
