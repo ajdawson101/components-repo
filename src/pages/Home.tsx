@@ -1,12 +1,9 @@
-import { Link, BrowserRouter as Router } from "react-router-dom";
-import "../App.css";
+import QrCode from "../components/Message/QrCode";
 
 export default function Home() {
   return (
     <>
-      <Link className="button" to={"/get-advice"}>
-        Enter
-      </Link>
+      <QrCode />
     </>
   );
 }

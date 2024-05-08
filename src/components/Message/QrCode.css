@@ -1,0 +1,79 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+  height: 100vh;
+}
+
+.body-description {
+  font-size: 15px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+.container.white {
+  background-color: #ffffff;
+}
+
+.qr-container {
+  position: relative;
+  display: flex;
+  background-color: #2c7dfa;
+  border-radius: 10px;
+  width: 100%;
+  height: 288px;
+  overflow: hidden; /* Add this to clip the .oval to the .qr-container */
+}
+
+.oval-top-left {
+  position: absolute;
+  width: 328px;
+  height: 328px;
+  opacity: 0.08;
+  right: 100.5px;
+  bottom: 100px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+
+.oval-bottom-right {
+  position: absolute;
+  width: 328px;
+  height: 328px;
+  opacity: 0.08;
+  left: 100.5px;
+  top: 200px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1f314f;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #7d889e;
+}
