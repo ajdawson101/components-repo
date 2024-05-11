@@ -1,0 +1,36 @@
+.newsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.list {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: blue;
+  font-weight: bolder;
+}
+
+.logo {
+  color: black;
+  font-weight: 1000;
+  font-size: 40px;
+  margin-left: 100px;
+}
